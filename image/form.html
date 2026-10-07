@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+
+    <form action="about.html" novalidate autocomplete="off" method="post">
+
+      <label for="fname">First name</label>
+
+      <br />
+
+      <input type="text" id="fname" name="fname" placeholder="firstname"/>
+
+      <br />
+
+      <label for="">Email</label>
+      <br />
+      <input type="email" name="email" value="email@gmail.com" disabled size="100"/>
+      <br />
+
+      <input type="email" name="email2"/>
+      <br />
+
+      <label for="">Password</label>
+      <br />
+      <input type="password" name="pass" />
+      <br />
+
+      <input type="checkbox" /> <span>Agree to terms</span>
+
+      <input type="radio" />
+
+      <input type="range" />
+
+      <input type="color" />
+
+      <input type="date" />
+      <input type="datetime-local" />
+
+      <input type="reset" />
+      <input type="number" />
+
+      <textarea
+        name=""
+        id=""
+        rows="10"
+        cols="120"
+        style="resize: none"
+      ></textarea>
+
+      <label for="">Select a country</label>
+      <select name="" id="">
+        <option selected disabled value="">select any country</option>
+
+        <option value="">Nigeria</option>
+        <option value="">Ghana</option>
+        <option value="">Gambia</option>
+      </select>
+
+
+      <fieldset>
+        <legend>PERSONAL INFORMATION</legend>
+        <input type="text" maxlength="5" required/>
+        <input type="text" />
+      </fieldset>
+
+      <fieldset>
+        <legend>EDUCATIONAL INFORMATION</legend>
+        <input type="text" />
+        <input type="text" />
+      </fieldset>
+
+      <input type="date" min="2025-01-01" max="2026-10-31" >
+
+      <input type="file" multiple>
+
+
+      
+      <button type="submit">Login</button>
+      <button type="button">Button</button>
+      <button type="reset">Reset</button>
+
+      <!-- <input type="submit"> -->
+
+    </form>
+  </body>
+</html>

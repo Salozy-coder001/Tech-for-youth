@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    background-image: url('../images/church.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+}
+
+.hero-container{
+    padding: 20px 50px;
+}
+
+.text-heading{
+    float: left;
+    font-size: 35px;
+}
+
+ul{
+    float: right;
+    list-style: none;
+}
+
+ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+}
+
+.clear{
+    clear: both;
+}
+
+.hero-text{
+    text-align: center;
+    margin-top: 150px;
+}
+
+.hero-text h1{
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+.hero-text span{
+    color: gold;
+}
+
+.hero-text h2{
+    margin-top: 20px;
+}
+
+.box-container{
+    width: 90%;
+    margin: 30px auto;
+}
+
+.box-1,
+.box-4,
+.box-5{
+    float: left;
+    text-align: center;
+}
+
+.box-1{
+    width: 33.3%;
+    height: 200px;
+}
+
+.box-4,
+.box-5{
+    width: 50%;
+    height: 150px;
+}
+
+.box{
+    padding-top: 50px;
+}
+
+.bg-gold{
+    background: gold;
+}
+
+.bg-black{
+    background: black;
+    color: white;
+}
+
+.bg-green{
+    background: green;
+}
+
+.bg-ash{
+    background: #ddd;
+}
+
+.bg-pink{
+    background: pink;
+}
+
+.time{
+    font-size: 40px;
+}
