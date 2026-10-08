@@ -1,0 +1,168 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    padding: 20px;
+    text-transform: capitalize;
+}
+
+.border {
+    border: 2px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+
+.bottom {
+    border-bottom: 2px solid red;
+    margin-bottom: 20px;
+    padding: 10px
+}
+
+.rounded {
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 20px 20px;
+    padding: 10px;
+}
+
+.blue-border {
+
+    background-color: aqua;
+    padding: 10px;
+    border-left: 4px solid blue;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 50%;
+    border: 1px solid gray;
+
+}
+
+.box {
+    height: 50px;
+    border: 1px solid gray;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 30px;
+}
+
+.variation {
+    border: 1px;
+    border-top: 40px solid rgb(246, 11, 11);
+    background-color: blue;
+    color: beige;
+    padding: 24px;
+    font-size: 24px;
+    width: 600px;
+    height: 200px;
+    margin: 10px auto;
+}
+
+.short-p {
+    padding-top: 20px;
+    font-size: 16px;
+}
+
+
+.p {
+    background-color: red;
+    padding: 10px;
+    margin-top: 20px;
+
+}
+
+.scroll {
+    border: 2px solid red;
+    margin-top: 20px;
+    height: 200px;
+    overflow: auto;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.defined-width {
+    background-color: rgb(220, 15, 15);
+    width: 30%;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.form-heading {
+    padding: 10px 0;
+}
+
+.bank-teller-container {
+    margin: 10px 0;
+}
+
+.branch-container input {
+    width: 50%;
+}
+
+.names-container {
+    margin: 10px 0;
+}
+
+.mobile-container{
+    margin: 10px 0;
+}
+
+.address-container input{
+    width: 70%;
+}
+div p:nth-child(2){
+    margin: 10px 0;
+
+}
+
+.guardian-container{
+    margin-top:  10px;
+}
+
+.guardian-container p:last-child{
+    margin: 10px 0;
+}
+
+.profile-container{
+    padding: 10px 0;
+}
+
+.profile-container p {
+    padding: 10px;
+}
+
+.checkbox-container{
+    margin: 10px 0;
+}
+
+.checkbox-container span{
+    padding-left: 10px;
+}
+
+.btn-container{
+    width: 100%;
+}
+
+button{
+    padding: 4px 8px;
+}
+
+hr{
+    margin-top: 10px;
+}

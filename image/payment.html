@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <link rel="stylesheet" href="payment.css">
+</head>
+
+<body>
+    <h1>miss 042</h1>
+
+    <form>
+        <p class="form-heading" style="color: rgb(225, 0, 0);">Registration</p>
+        <hr>
+        <div class="bank-teller-container">
+            <label for="teller">Bank Teller Number</label>
+            <input type="text" id="teller" name="teller">
+
+            <label for="date">Date of Payment: Month</label>
+            <select name="date" id="payment-date">
+                <option value="January">January</option>
+                <option value="Feburary">Feburary</option>
+                <option value="March">March</option>
+                <option value="April">April</option>
+                <option value="May">May</option>
+                <option value="June">June</option>
+                <option value="July">July</option>
+                <option value="August">August</option>
+                <option value="September">September</option>
+                <option value="October">October</option>
+                <option value="November">November</option>
+                <option value="December">December</option>
+            </select>
+
+            <label for="year">Year</label>
+            <select name="year" id="payment-year">
+                <option selected value="2026">2026</option>
+                <option value="2025">2025</option>
+                <option value="2024">2024</option>
+                <option value="2023">2023</option>
+                <option value="2022">2022</option>
+                <option value="2021">2021</option>
+                <option value="2020">2020</option>
+                <option value="2020">2020</option>
+
+            </select>
+        </div>
+
+        <div class="branch-container">
+            <label for="branch">Branch</label>
+            <input type="text" id="branch" name="branch">
+        </div>
+
+        <div class="names-container">
+            <label for="fname">FirstName</label>
+            <input type="text" id="fname" name="fname">
+
+            <label for="mname">MiddleName</label>
+            <input type="text" id="mname" name="mname">
+
+            <label for="lname">LastName</label>
+            <input type="text" id="lname" name="lname">
+        </div>
+
+        <div class="dob-container">
+            <label for="Dbirth">Date of Birth</label>
+            <input type="number">
+
+            <label for="month">Month</label>
+            <select name="date" id="month">
+                <option value="January">January</option>
+                <option value="Feburary">Feburary</option>
+                <option value="March">March</option>
+                <option value="April">April</option>
+                <option value="May">May</option>
+                <option value="June">June</option>
+                <option value="July">July</option>
+                <option value="August">August</option>
+                <option value="September">September</option>
+                <option value="October">October</option>
+                <option value="November">November</option>
+                <option value="December">December</option>
+            </select>
+
+            <label for="year">Year</label>
+            <select name="year" id="payment-year">
+                <option value="1980">1980</option>
+                <option value="2025">2025</option>
+                <option value="2024">2024</option>
+                <option value="2023">2023</option>
+                <option value="2022">2022</option>
+                <option value="2021">2021</option>
+                <option value="2020">2020</option>
+                <option value="2020">2020</option>
+
+            </select>
+
+            <label for="m-status">Marital Status</label>
+            <select name="m-status" id="m-status">
+                <option value="" selected disabled>Please select</option>
+                <option value="">single</option>
+                <option value="">Married</option>
+                <option value="">Divorced</option>
+            </select>
+        </div>
+
+        <div class="mobile-container">
+            <label for="mPone">Mobile Phone Number</label>
+            <input type="tel" id="mPone" name="mPone">
+
+            <label for="Hphone">Home Phone Number</label>
+            <input type="tel" name="Hphone" id="Hphone">
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+        </div>
+
+        <div class="address-container">
+            <p>
+                <label for="caddress">Contact Address</label>
+                <input type="text" id="caddress" name="caddress">
+            </p>
+            <p>
+                <label for="caddress2">Contact Address2</label>
+                <input type="text" id="caddress2" name="caddress">
+            </p>
+            <p>
+                <label for="origin">State of Origin</label>
+                <input type="text" id="origin" name="origin">
+            </p>
+        </div>
+
+        <p class="form-heading">Registration Step2</p>
+        <hr>
+
+        <div class="guardian-container">
+            <p>
+                <label for="kin">guardian Next of Kin</label>
+                <input type="text" id="kin" name="kin">
+            </p>
+            <p>
+                <label for="Rkin">Relationship to Guardian Next of Kin</label>
+                <input type="text" id="Rkin" name="Rkin">
+
+                <span>
+                    <label for="occupation">Occupation</label>
+                    <input type="text" id="occupation" name="occupation">
+                </span>
+            </p>
+            <p>
+                <label for="adress-kin">Address of Guardian Next of kin</label>
+                <input type="text" id="address-kin" name="address-kin">
+            </p>
+            <p>
+                <label for="phone-kin">Phone Number of Guardian Next of kin</label>
+                <input type="text" id="phone-kin" name="phone-kin">
+            </p>
+        </div>
+        <p class="form-heading">Registration Step3</p>
+        <hr>
+        <div class="profile-container">
+            <p>Tell us about yourselve in less than 200 words</p>
+            <textarea name="aboutme" id="aboutme" rows="20px" cols="50px"></textarea>
+        </div>
+
+        <p class="form-heading">Registration step 4</p>
+        <hr>
+        <div class="checkbox-container">
+            <input type="checkbox">
+            <label for="terms">
+                <span>i agree that all the information provided above are accurate. i have read and understood the rules
+                    and regulation set forth by the miss 042 peagent committee and agree to abide by them.
+                </span>
+                <p>i further agree to abide by the rules and regulation setforth by miss 042 peagent committee. i will
+                    accept the decision on the judges as final and binding and i understand that such decision are not
+                    questionable
+                </p>
+                <p>i hereby consent that the organizers of the Miss 042 peagent reserve the right to use all
+                    information, person or general, text, image submitted by me before sharing the peagent in any medium
+                    plain or electronic in the advancement of the miss 042 peagent
+                </p>
+            </label>
+        </div>
+
+        <div class="btn-container">
+            <button type="submit">submit</button>
+            <button type="reset">Reset</button>
+        </div>
+    </form>
+    <hr>
+</body>
+
+</html>
