@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.calendar{
+
+    margin: 20px;
+    /* border: 2px solid white;  */
+    width: 50%;
+    border-collapse: collapse;
+    padding: 20px;
+    text-align: center;
+    height: 50vh;
+    
+}
+
+th, td {
+    border: 2px solid whitesmoke;
+    background-color: rgb(209, 245, 245);
+}
+
+th {
+    background-color: blue;
+    color: white;
+}
+
+h1{
+    font-size: large;
+    text-align: center;
+    width: 50%;
+    margin-top: 20px;
+   
+}
+
+td:nth-child(even){
+    background-color: pink;
+}
