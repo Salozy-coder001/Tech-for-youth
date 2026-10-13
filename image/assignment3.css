@@ -1,0 +1,175 @@
+*CSS*
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head {
+    background-color: rgb(240, 158, 8);
+    height: 100px;
+}
+
+.head .head2 {
+    padding: 20px;
+    font-size: 260%;
+}
+
+.head .head3 {
+    background-color: black;
+    color: white;
+    width: 25%;
+    height: 70px;
+    padding: 22px;
+    padding-left: 35px;
+    margin: 15px;
+    float: right;
+    margin-top: -60px;
+    font-size: 200%;
+}
+
+.form1 p {
+    margin-bottom: -9px;
+    margin-top: 20px;
+}
+
+.main {
+    background-color: rgb(250, 196, 97);
+    height: 1020px;
+    padding: 80px 0;
+}
+
+.form1 input {
+    margin-top: 10px;
+    outline: 0;
+    border: 0;
+    border-radius: 5px;
+    padding: 5px;
+    width: 90%;
+}
+
+.form1 {
+    background-color: bisque;
+    float: left;
+    width: 18%;
+    height: 400px;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* FORM 2 */
+
+.form2 {
+    background-color: burlywood;
+    float: left;
+    width: 26%;
+    height: 380px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.form2 h4 {
+    text-align: center;
+    padding: 10px;
+}
+
+.form2 input {
+    margin: 10px;
+    margin-top: 10px;
+    outline: 0;
+    border: 0;
+    padding: 7px;
+    width: 90%;
+}
+
+/* FORM 3 */
+
+/* margin-bottom: -9px;
+    margin-top: 20px; */
+
+.form3 {
+    background-color: lightgreen;
+    float: left;
+    width: 24%;
+    height: 580px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.form3 input {
+    margin: 10px;
+    margin: 10px;
+    /* margin-top: 10px; */
+    outline: 0;
+    border: 0;
+    border-radius: 6px;
+    padding: 7px;
+    width: 86%;
+    background-color: black;
+}
+
+.form3 h5 {
+    margin-bottom: -9px;
+    margin-top: 11px;
+}
+
+.form3 input:focus {
+    background-color: skyblue;
+}
+
+
+/* FORM 4 */
+
+.form4 {
+    background-color: gray;
+    height: 270px;
+    float: left;
+    width: 19%;
+}
+
+.form4 input {
+    outline: 0;
+    border: 0;
+    border-radius: 1px;
+    margin: 9px;
+    margin-left: 19px;
+    padding: 6px;
+    width: 40%;
+}
+
+/* FORM 5 */
+
+.form5 {
+    background-color: khaki;
+    height: 350px;
+    float: right;
+    width: 18%;
+    margin-right: 50px;
+    margin-top: 80px;
+}
+
+.form5 textarea {
+    outline: 0;
+    border: 0;
+    padding: 9px;
+    margin-left: 20px;
+}
+
+/* FORM 6 */
+
+.form6 {
+    background-color: rgb(218, 164, 173);
+    height: 274px;
+    float: left;
+    width: 50%;
+    margin: 30px;
+    /* margin-right: 50px;
+    margin-top: 30px; */
+    padding: 30px;
+}
+
+.form6 p {
+    line-height: 23px;
+    word-spacing: 4px;
+}
